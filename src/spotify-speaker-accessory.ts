@@ -10,7 +10,7 @@ export class SpotifySpeakerAccessory {
 
   public readonly pollInterval: NodeJS.Timer;
 
-  public static CATEGORY = Categories.LIGHTBULB;
+  public static CATEGORY = Categories.SPEAKER;
   public static DEVICES: SpotifyApi.UserDevice[] = [];
   public static CURRENT_STATE: SpotifyApi.CurrentPlaybackResponse | undefined = undefined;
 
